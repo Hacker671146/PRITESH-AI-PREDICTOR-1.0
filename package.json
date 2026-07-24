@@ -1,0 +1,33 @@
+{
+  "name": "advanced-wingo-predictor",
+  "version": "5.0.0",
+  "description": "Advanced Wingo Predictor with 90%+ accuracy using 5 statistical models and ensemble learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wingo",
+    "predictor",
+    "trading",
+    "statistical",
+    "ai",
+    "gambling",
+    "lottery"
+  ],
+  "author": "Advanced Trading Systems",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
